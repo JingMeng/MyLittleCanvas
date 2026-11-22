@@ -2,7 +2,7 @@ package com.github.florent37.mylittlecanvas.shape;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import android.support.annotation.ColorInt;
+import androidx.annotation.ColorInt;
 
 public abstract class Shape {
 
@@ -45,3 +45,4 @@ public abstract class Shape {
 
     public abstract boolean containsTouch(float x, float y);
 }
+

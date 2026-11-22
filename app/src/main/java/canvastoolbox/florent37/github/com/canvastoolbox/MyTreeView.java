@@ -1,9 +1,9 @@
-package canvastoolbox.florent37.github.com.canvastoolbox;
+﻿package canvastoolbox.florent37.github.com.canvastoolbox;
 
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.text.Layout;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
@@ -179,3 +179,4 @@ public class MyTreeView extends View {
         lineParentChildRight.onDraw(canvas);
     }
 }
+

@@ -3,7 +3,7 @@ package com.github.florent37.mylittlecanvas.shape;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Typeface;
-import android.support.annotation.ColorInt;
+import androidx.annotation.ColorInt;
 import android.text.Layout;
 import android.text.StaticLayout;
 import android.text.TextPaint;
@@ -145,3 +145,4 @@ public class TextShape extends Shape {
         return this;
     }
 }
+

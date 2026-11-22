@@ -1,6 +1,6 @@
 package com.github.florent37.mylittlecanvas;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.MotionEvent;
 
 import static android.view.MotionEvent.INVALID_POINTER_ID;
@@ -94,3 +94,4 @@ public class TouchEventDetector {
         void onRelease(float x, float y);
     }
 }
+

@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 import com.github.florent37.mylittlecanvas.shape.RoundRectShape;
 
 
-public class UnderlinedTextView extends android.support.v7.widget.AppCompatTextView {
+public class UnderlinedTextView extends androidx.appcompat.widget.AppCompatTextView {
 
     final RoundRectShape roundRectShape = new RoundRectShape();
 

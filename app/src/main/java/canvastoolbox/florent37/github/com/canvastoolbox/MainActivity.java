@@ -1,6 +1,6 @@
-package canvastoolbox.florent37.github.com.canvastoolbox;
+﻿package canvastoolbox.florent37.github.com.canvastoolbox;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
@@ -11,3 +11,4 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 }
+
